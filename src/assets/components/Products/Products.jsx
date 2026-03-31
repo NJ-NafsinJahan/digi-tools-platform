@@ -7,7 +7,6 @@ const Products = ({ productsPromise }) => {
   console.log(products);
   return (
     <div className="container mx-auto">
-      Products: {products.length}
       <AvailableProducts products={products} />
     </div>
   );

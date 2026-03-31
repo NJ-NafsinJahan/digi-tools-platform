@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import { use } from "react";
+import Products from "../Products/Products";
 
 const PremiumSection = () => {
+  const [selectedType, setSelectedType] = useState("Products");
+  console.log(selectedType, "selectedType");
   return (
     <>
       {/* div for card banner */}
@@ -14,13 +18,27 @@ const PremiumSection = () => {
         </p>
 
         {/* for button div */}
-        <div>
-          <button className="btn font-semibold text-[18px] text-white rounded-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] border-none px-4 py-6">
+        <div className=" mb-15">
+          <button
+            onClick={() => setSelectedType("Products")}
+            className={`btn ${selectedType === "Products" ? " text-amber-100 rounded-r-none rounded-l-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] border" : "text-black border rounded-r-none rounded-l-4xl "}  font-semibold text-[18px] px-6 py-6`}
+          >
             Products
           </button>
-          <button className="btn font-semibold text-[18px] border-4">
-            Cart
+          <button
+            onClick={() => setSelectedType("Cart")}
+            className={`btn ${selectedType === "Cart" ? " text-amber-100  rounded-l-none rounded-r-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] border" : " text-black  border rounded-l-none rounded-r-4xl "} font-semibold text-[18px] px-7 py-6`}
+          >
+            Cart(0)
           </button>
+
+          {/* <button className="btn font-semibold text-[18px] text-white rounded-r-none rounded-l-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] border px-4 py-6">
+            Products
+          </button> */}
+
+          {/* <button className="btn font-semibold text-[18px] border rounded-l-none rounded-r-4xl px-8 py-6">
+            Card
+          </button> */}
         </div>
       </div>
     </>
