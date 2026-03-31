@@ -19,7 +19,7 @@ const Banner = () => {
             Supercharge Your <br /> Digital Workflow
           </h1>
 
-          <p className="font-normal text-[18px] text-[#627382] m-4">
+          <p className="font-normal text-[16px] text-[#627382] m-4">
             Access premium AI tools, design assets, templates, and productivity
             software—all in one place. Start creating faster today. Explore
             Products
@@ -44,7 +44,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] flex justify-center items-center h-35">
+      <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] flex justify-center items-center h-35 mb-14">
         <div className="p-4 flex items-center">
           <div>
             <h1 className="font-extrabold text-3xl text-amber-50">50K+</h1>
@@ -73,4 +73,5 @@ const Banner = () => {
     </>
   );
 };
+
 export default Banner;
