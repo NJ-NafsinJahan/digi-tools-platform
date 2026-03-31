@@ -23,9 +23,6 @@ const PremiumSection = () => {
           </button>
         </div>
       </div>
-
-      {/* div for cards */}
-      <div className=""></div>
     </>
   );
 };

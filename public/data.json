@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "productName": "Resume Builder Pro",
+    "productDescription": "Create professional resumes with modern templates",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "productIcon": "https://img.icons8.com/ios-filled/50/resume.png"
+  },
+  {
+    "id": 2,
+    "productName": "AI Content Writer",
+    "productDescription": "Generate high-quality blog and marketing content",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["AI writing", "SEO optimization", "Multiple languages"],
+    "productIcon": "https://i.ibb.co.com/d0RnCV6g/writing.png"
+  },
+  {
+    "id": 3,
+    "productName": "Logo Maker",
+    "productDescription": "Design stunning logos in minutes",
+    "price": 25,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["500+ icons", "Custom colors", "Download PNG & SVG"],
+    "productIcon": "https://img.icons8.com/ios-filled/50/logo.png"
+  },
+  {
+    "id": 4,
+    "productName": "Social Media Scheduler",
+    "productDescription": "Schedule and manage your social media posts",
+    "price": 8,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Auto posting", "Analytics", "Multi-platform support"],
+    "productIcon": "https://img.icons8.com/ios-filled/50/schedule.png"
+  },
+  {
+    "id": 5,
+    "productName": "Website Builder",
+    "productDescription": "Build responsive websites without coding",
+    "price": 50,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Drag & drop", "Free hosting", "Custom domains"],
+    "productIcon": "https://img.icons8.com/ios-filled/50/website.png"
+  },
+  {
+    "id": 6,
+    "productName": "Email Marketing Tool",
+    "productDescription": "Create and send email campaigns بسهولة",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Templates", "Automation", "Analytics"],
+    "productIcon": "https://img.icons8.com/ios-filled/50/email.png"
+  },
+  {
+    "id": 7,
+    "productName": "Photo Editor Pro",
+    "productDescription": "Edit photos with advanced tools and filters",
+    "price": 20,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Filters", "Retouch", "Background remover"],
+    "productIcon": "https://img.icons8.com/ios-filled/50/photo-editor.png"
+  },
+  {
+    "id": 8,
+    "productName": "Cloud Storage",
+    "productDescription": "Securely store and access your files online",
+    "price": 5,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["100GB storage", "File sharing", "Secure backup"],
+    "productIcon": "https://img.icons8.com/ios-filled/50/cloud.png"
+  },
+  {
+    "id": 9,
+    "productName": "Video Editor",
+    "productDescription": "Create and edit professional videos بسهولة",
+    "price": 30,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Timeline editing", "Effects", "Export HD"],
+    "productIcon": "https://img.icons8.com/ios-filled/50/video-editing.png"
+  }
+]
