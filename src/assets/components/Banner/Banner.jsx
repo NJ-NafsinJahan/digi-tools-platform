@@ -6,7 +6,7 @@ import play from "../../picture/Play.png";
 const Banner = () => {
   return (
     <>
-      <div className="flex justify-between items-center m-6">
+      <div className="flex justify-between items-center m-6 container mx-auto">
         <div className="h-90 w-3xl">
           <button className="btn bg-[#E1E7FF] rounded-3xl m-4">
             <img src={bannerDot} alt="" />

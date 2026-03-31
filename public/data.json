@@ -8,7 +8,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "productIcon": "https://img.icons8.com/ios-filled/50/resume.png"
+    "productIcon": "https://i.ibb.co.com/d0RnCV6g/writing.png"
   },
   {
     "id": 2,
@@ -19,18 +19,18 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["AI writing", "SEO optimization", "Multiple languages"],
-    "productIcon": "https://i.ibb.co.com/d0RnCV6g/writing.png"
+    "productIcon": "https://i.ibb.co.com/FLCTzGqf/design-tool.png"
   },
   {
     "id": 3,
-    "productName": "Logo Maker",
+    "productName": "AI Logo Maker",
     "productDescription": "Design stunning logos in minutes",
     "price": 25,
     "period": "one-time",
     "tag": "new",
     "tagType": "new",
     "features": ["500+ icons", "Custom colors", "Download PNG & SVG"],
-    "productIcon": "https://img.icons8.com/ios-filled/50/logo.png"
+    "productIcon": "https://i.ibb.co.com/Q34Mh4Md/ai-logo.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Auto posting", "Analytics", "Multi-platform support"],
-    "productIcon": "https://img.icons8.com/ios-filled/50/schedule.png"
+    "productIcon": "https://i.ibb.co.com/Kps7Zg9z/social-media.png"
   },
   {
     "id": 5,
@@ -52,18 +52,18 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Drag & drop", "Free hosting", "Custom domains"],
-    "productIcon": "https://img.icons8.com/ios-filled/50/website.png"
+    "productIcon": "https://i.ibb.co.com/MxCnFsY4/portfolio.png"
   },
   {
     "id": 6,
     "productName": "Email Marketing Tool",
-    "productDescription": "Create and send email campaigns بسهولة",
+    "productDescription": "Create and send email campaigns",
     "price": 12,
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
     "features": ["Templates", "Automation", "Analytics"],
-    "productIcon": "https://img.icons8.com/ios-filled/50/email.png"
+    "productIcon": "https://i.ibb.co.com/Qj8BdtYx/email.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Filters", "Retouch", "Background remover"],
-    "productIcon": "https://img.icons8.com/ios-filled/50/photo-editor.png"
+    "productIcon": "https://i.ibb.co.com/pBw1HDkq/Group-7.png"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["100GB storage", "File sharing", "Secure backup"],
-    "productIcon": "https://img.icons8.com/ios-filled/50/cloud.png"
+    "productIcon": "https://i.ibb.co.com/LzYxsZYq/cloud-Storage.png"
   },
   {
     "id": 9,
@@ -96,6 +96,6 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Timeline editing", "Effects", "Export HD"],
-    "productIcon": "https://img.icons8.com/ios-filled/50/video-editing.png"
+    "productIcon": "https://i.ibb.co.com/yBgV5N5p/Video-Editor.png"
   }
 ]
