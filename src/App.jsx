@@ -18,10 +18,12 @@ function App() {
   const productsPromise = fetchProducts();
   const [selectedType, setSelectedType] = useState("Products");
   console.log(selectedType, "selectedType");
-  const [navbarCart, setNavbarCart] = useState(4);
+  const [navbarCart, setNavbarCart] = useState(0);
+
   return (
     <>
       <Navbar navbarCart={navbarCart} />
+
       <Banner />
       <PremiumSection
         selectedType={selectedType}
@@ -34,6 +36,7 @@ function App() {
           productsPromise={productsPromise}
           selectedType={selectedType}
           setNavbarCart={setNavbarCart}
+          navbarCart={navbarCart}
         />
       </Suspense>
       <Steps />

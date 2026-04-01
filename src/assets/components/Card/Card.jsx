@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 
-const Card = ({ product, setNavbarCart }) => {
+const Card = ({ product, setNavbarCart, navbarCart }) => {
   const [selectedType, setSelectedType] = useState(false);
 
   const handelChooseProduct = () => {
+    alert(`${product.productName} is selected`);
     setSelectedType(true);
-    setNavbarCart(1);
+    setNavbarCart(navbarCart + 1);
   };
   return (
     <>

@@ -2,7 +2,12 @@ import React, { use, useState } from "react";
 import AvailableProducts from "../AvailableProducts/AvailableProducts";
 import YourCart from "../YourCart/YourCart";
 
-const Products = ({ productsPromise, selectedType, setNavbarCart }) => {
+const Products = ({
+  productsPromise,
+  selectedType,
+  setNavbarCart,
+  navbarCart,
+}) => {
   console.log(productsPromise);
   const products = use(productsPromise);
   console.log(products);
@@ -13,7 +18,11 @@ const Products = ({ productsPromise, selectedType, setNavbarCart }) => {
     <div className="container mx-auto">
       {/* <AvailableProducts products={products} /> */}
       {selectedType === "Products" ? (
-        <AvailableProducts products={products} setNavbarCart={setNavbarCart} />
+        <AvailableProducts
+          products={products}
+          setNavbarCart={setNavbarCart}
+          navbarCart={navbarCart}
+        />
       ) : (
         <YourCart />
       )}
