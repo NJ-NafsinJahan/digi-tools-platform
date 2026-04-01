@@ -27,7 +27,8 @@ const PremiumSection = ({ selectedType, setSelectedType }) => {
             onClick={() => setSelectedType("Cart")}
             className={`btn ${selectedType === "Cart" ? " text-amber-100  rounded-l-none rounded-r-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] border" : " text-black  border rounded-l-none rounded-r-4xl "} font-semibold text-[18px] px-7 py-6`}
           >
-            Cart(0)
+            {/* Cart (0) */}
+            Cart
           </button>
         </div>
       </div>
