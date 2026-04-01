@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
 const Card = ({
   product,
@@ -10,7 +11,8 @@ const Card = ({
   const [selectedType, setSelectedType] = useState(false);
 
   const handelChooseProduct = () => {
-    alert(`${product.productName} is selected`);
+    // alert(`${product.productName} is selected`);
+    toast(`${product.productName} is selected`);
     setSelectedType(true);
     setNavbarCart(navbarCart + 1);
 

@@ -26,7 +26,12 @@ const Products = ({
           setSelectedYourCard={setSelectedYourCard}
         />
       ) : (
-        <YourCart selectedYourCard={selectedYourCard} />
+        <YourCart
+          selectedYourCard={selectedYourCard}
+          setSelectedYourCard={setSelectedYourCard}
+          setNavbarCart={setNavbarCart}
+          navbarCart={navbarCart}
+        />
       )}
     </div>
   );
