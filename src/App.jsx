@@ -6,6 +6,7 @@ import Banner from "./assets/components/Banner/Banner";
 import PremiumSection from "./assets/components/PremiumSection/PremiumSection";
 import Products from "./assets/components/Products/Products";
 import Steps from "./assets/components/StaticSection/Steps";
+import Pricing from "./assets/components/StaticSection/Pricing";
 
 const fetchProducts = async () => {
   const res = await fetch("/data.json");
@@ -25,6 +26,7 @@ function App() {
         <Products productsPromise={productsPromise} />
       </Suspense>
       <Steps />
+      <Pricing />
     </>
   );
 }

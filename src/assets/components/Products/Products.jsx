@@ -8,7 +8,7 @@ const Products = ({ productsPromise, selectedType }) => {
   console.log(products);
 
   //   const [selectedType, setSelectedType] = useState("Products");
-  console.log(selectedType, "selectedType");
+  //   console.log(selectedType, "selectedType");
   return (
     <div className="container mx-auto">
       {/* <AvailableProducts products={products} /> */}
