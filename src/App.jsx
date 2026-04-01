@@ -16,15 +16,25 @@ const fetchProducts = async () => {
 
 function App() {
   const productsPromise = fetchProducts();
+  const [selectedType, setSelectedType] = useState("Products");
+  console.log(selectedType, "selectedType");
+  const [navbarCart, setNavbarCart] = useState(4);
   return (
     <>
-      <Navbar />
+      <Navbar navbarCart={navbarCart} />
       <Banner />
-      <PremiumSection />
+      <PremiumSection
+        selectedType={selectedType}
+        setSelectedType={setSelectedType}
+      />
       <Suspense
         fallback={<span className="loading loading-dots loading-xl"></span>}
       >
-        <Products productsPromise={productsPromise} />
+        <Products
+          productsPromise={productsPromise}
+          selectedType={selectedType}
+          setNavbarCart={setNavbarCart}
+        />
       </Suspense>
       <Steps />
       <Pricing />

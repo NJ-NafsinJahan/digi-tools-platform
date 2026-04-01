@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { use } from "react";
 import Products from "../Products/Products";
 
-const PremiumSection = () => {
-  const [selectedType, setSelectedType] = useState("Products");
-  console.log(selectedType, "selectedType");
+const PremiumSection = ({ selectedType, setSelectedType }) => {
   return (
     <>
       {/* div for card banner */}
@@ -31,14 +29,6 @@ const PremiumSection = () => {
           >
             Cart(0)
           </button>
-
-          {/* <button className="btn font-semibold text-[18px] text-white rounded-r-none rounded-l-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] border px-4 py-6">
-            Products
-          </button> */}
-
-          {/* <button className="btn font-semibold text-[18px] border rounded-l-none rounded-r-4xl px-8 py-6">
-            Card
-          </button> */}
         </div>
       </div>
     </>

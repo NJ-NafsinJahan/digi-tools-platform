@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Card = ({ product }) => {
+const Card = ({ product, setNavbarCart }) => {
+  const [selectedType, setSelectedType] = useState(false);
+
+  const handelChooseProduct = () => {
+    setSelectedType(true);
+    setNavbarCart(1);
+  };
   return (
     <>
       {/* for product card */}
@@ -77,8 +83,12 @@ const Card = ({ product }) => {
             </li>
           </ul>
           <div className="mt-6">
-            <button className="btn btn-primary btn-block font-semibold text-[18px] text-white rounded-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] border-none ">
-              Buy Now
+            <button
+              className="btn btn-primary btn-block font-semibold text-[18px] text-white rounded-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] border-none disabled:from-green-700 disabled:to-green-500 "
+              onClick={handelChooseProduct}
+              disabled={selectedType ? true : false}
+            >
+              {selectedType === true ? "Added to Cart!" : "Buy Now"}
             </button>
           </div>
         </div>

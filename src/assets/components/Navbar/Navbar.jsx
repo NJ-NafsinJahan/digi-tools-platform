@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../picture/DigiTools.png";
 import { FiShoppingCart } from "react-icons/fi";
 
-const Navbar = () => {
+const Navbar = ({ navbarCart }) => {
   return (
     <>
       <div className="navbar bg-base-100 shadow-sm px-4 md:px-10 lg:px-30 py-4 md:py-6">
@@ -62,8 +62,10 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-end gap-2 md:gap-4">
-          <div className="p-2 text-lg">
+          <div className="p-2 text-lg indicator">
             <FiShoppingCart />
+            {/* ******** */}
+            <span className="badge badge-sm indicator-item">{navbarCart}</span>
           </div>
 
           <button className="font-semibold text-[14px] md:text-[18px] text-[#101727]">
