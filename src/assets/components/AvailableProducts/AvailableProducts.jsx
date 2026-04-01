@@ -2,7 +2,13 @@ import React from "react";
 import cardImg1 from "../../picture/writing.png";
 import Card from "../Card/Card";
 
-const AvailableProducts = ({ products, setNavbarCart, navbarCart }) => {
+const AvailableProducts = ({
+  products,
+  setNavbarCart,
+  navbarCart,
+  selectedYourCard,
+  setSelectedYourCard,
+}) => {
   console.log(products, "products");
   return (
     <div className="px-4 md:px-8 lg:px-12">
@@ -11,9 +17,12 @@ const AvailableProducts = ({ products, setNavbarCart, navbarCart }) => {
           console.log(product, "product");
           return (
             <Card
+              key={product.id}
               product={product}
               setNavbarCart={setNavbarCart}
               navbarCart={navbarCart}
+              selectedYourCard={selectedYourCard}
+              setSelectedYourCard={setSelectedYourCard}
             />
           );
         })}

@@ -11,8 +11,8 @@ const Products = ({
   console.log(productsPromise);
   const products = use(productsPromise);
   console.log(products);
+  const [selectedYourCard, setSelectedYourCard] = useState([]);
 
-  //   const [selectedType, setSelectedType] = useState("Products");
   console.log(selectedType, "selectedType");
   return (
     <div className="container mx-auto">
@@ -22,9 +22,11 @@ const Products = ({
           products={products}
           setNavbarCart={setNavbarCart}
           navbarCart={navbarCart}
+          selectedYourCard={selectedYourCard}
+          setSelectedYourCard={setSelectedYourCard}
         />
       ) : (
-        <YourCart />
+        <YourCart selectedYourCard={selectedYourCard} />
       )}
     </div>
   );

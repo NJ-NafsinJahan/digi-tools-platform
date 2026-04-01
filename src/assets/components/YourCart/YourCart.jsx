@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
-const YourCart = () => {
+const YourCart = ({ selectedYourCard }) => {
+  console.log(selectedYourCard, "selectedYourCard");
   return <div>YourCart</div>;
 };
 
